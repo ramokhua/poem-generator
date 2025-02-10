@@ -2,7 +2,7 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: "The night fades slow, a hush so deep,",
+    strings: response.data.answer,
     autoStart: true,
     delay: 1,
     cursor: "",
