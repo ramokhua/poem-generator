@@ -1,10 +1,12 @@
 function displayPoem(response) {
+  let poemText =  response.data.answer;
   new Typewriter("#poem", {
-    strings: response.data.answer,
+    strings: poemText,
     autoStart: true,
     delay: 1,
     cursor: "",
   });
+  return poemText;
 }
 
 function generatePoem(event) {
