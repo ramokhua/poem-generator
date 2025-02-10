@@ -1,4 +1,4 @@
-function generatePoem(event) {
+function displayPoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
