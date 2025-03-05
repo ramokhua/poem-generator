@@ -2,6 +2,9 @@
 
 This is a simple web-based application that generates random poems. It is designed to be easy to use and provides a fun way to create poetry.
 
+##Status badge
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f84a8b10-1d1e-4281-a192-c698c4515de3/deploy-status)](https://app.netlify.com/sites/ai-poem-generator-boitsholo/deploys)
+
 ## Features
 
 - Generate random poems with a single click
